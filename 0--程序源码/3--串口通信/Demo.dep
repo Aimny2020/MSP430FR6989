@@ -5,41 +5,41 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-            <file>$TOOLKIT_DIR$\config\linker\lnk430fr6989.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\Demo.pbd</file>
-            <file>$PROJ_DIR$\Debug\Exe\Demo.d43</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\io430fr6989.h</file>
-            <file>$TOOLKIT_DIR$\inc\io430.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\Demo.ulp</file>
-            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
             <file>$PROJ_DIR$\Debug\List\Demo.map</file>
             <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Demo.pbd</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430fr6989.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\Demo.d43</file>
+            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\io430fr6989.h</file>
+            <file>$TOOLKIT_DIR$\inc\io430.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\Demo.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>ULP430</name>
-                    <file> 19</file>
+                    <name>XLINK</name>
+                    <file> 15 0</file>
                 </tool>
                 <tool>
-                    <name>XLINK</name>
-                    <file> 14 21</file>
+                    <name>ULP430</name>
+                    <file> 20</file>
                 </tool>
             </outputs>
         </file>
@@ -48,13 +48,13 @@
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 21</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 11 16 10 22</file>
+                    <file> 14 16 10 1</file>
                 </tool>
             </inputs>
         </file>
@@ -67,21 +67,21 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 23</file>
+                    <file> 2</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 12</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 18 17 20 4 3 7 8 1 6 9 0 5 2</file>
+                    <file> 18 17 23 13 7 3 4 6 9 12 11 8 21</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 1 17 3 4 20 5 9 6 18 7 2 8 0</file>
+                    <file> 6 17 7 13 23 8 12 9 18 3 21 4 11</file>
                 </tool>
             </inputs>
         </file>

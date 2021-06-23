@@ -1,4 +1,4 @@
-"D:\GitHub\MSP430FR6989\0--程序源码\2--SystemClock\main.c"
+"D:\GitHub\MSP430FR6989\0--程序源码\2--按键消抖\main.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512

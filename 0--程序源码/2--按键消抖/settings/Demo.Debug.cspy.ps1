@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "E:\Program Files\IAR For MSP430\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\GitHub\MSP430FR6989\0--程序源码\2--SystemClock\settings\Demo.Debug.general.xcl" --backend -f "D:\GitHub\MSP430FR6989\0--程序源码\2--SystemClock\settings\Demo.Debug.driver.xcl" 
+& "E:\Program Files\IAR For MSP430\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\GitHub\MSP430FR6989\0--程序源码\2--按键消抖\settings\Demo.Debug.general.xcl" --backend -f "D:\GitHub\MSP430FR6989\0--程序源码\2--按键消抖\settings\Demo.Debug.driver.xcl" 
 }
 else
 {
-& "E:\Program Files\IAR For MSP430\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\GitHub\MSP430FR6989\0--程序源码\2--SystemClock\settings\Demo.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\GitHub\MSP430FR6989\0--程序源码\2--SystemClock\settings\Demo.Debug.driver.xcl" 
+& "E:\Program Files\IAR For MSP430\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\GitHub\MSP430FR6989\0--程序源码\2--按键消抖\settings\Demo.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\GitHub\MSP430FR6989\0--程序源码\2--按键消抖\settings\Demo.Debug.driver.xcl" 
 }

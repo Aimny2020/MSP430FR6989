@@ -42,7 +42,7 @@ unsigned short RxChar;
 #pragma vector = USCI_A1_VECTOR
 __interrupt void ISR_USCI_A1(void)
 {
-    switch(__even_in_range(UCA1IV, 8))
+    switch(UCA1IV)
     {
         case 0x00: // Vector 0: No interrupts
             break;
