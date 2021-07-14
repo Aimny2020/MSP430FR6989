@@ -5,46 +5,39 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\..\Applications\main.c</file>
             <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Demo.pbd</file>
-            <file>$PROJ_DIR$\Debug\Exe\Demo.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\Drives\uart.c</file>
             <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Demo.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
             <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
             <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\Applications\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\List\Demo.map</file>
+            <file>$TOOLKIT_DIR$\inc\io430fr6989.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
             <file>$PROJ_DIR$\..\Drives\uart.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
             <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
             <file>$PROJ_DIR$\Debug\Obj\uart.r43</file>
             <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\Drives\uart.c</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\io430.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\io430fr6989.h</file>
+            <file>$PROJ_DIR$\Debug\List\Demo.map</file>
             <file>$TOOLKIT_DIR$\config\linker\lnk430fr6989.xcl</file>
             <file>$PROJ_DIR$\Debug\Exe\Demo.d43</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\io430.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 27 15</file>
-                </tool>
-                <tool>
-                    <name>ULP430</name>
-                    <file> 3</file>
+                    <file> 24 22</file>
                 </tool>
             </outputs>
         </file>
@@ -52,26 +45,22 @@
             <name>$PROJ_DIR$\..\Applications\main.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 14</file>
-                </tool>
-                <tool>
                     <name>ICC430</name>
-                    <file> 12</file>
+                    <file> 10</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 0</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 23 25 5 7 19 22 4 21 10 28 1 9 8 16</file>
+                    <file> 25 14 12 2 21 19 6 15 9 17 1 4 8 16</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 1 22 16 5 7 25 8 4 23 19 9 28 21 10</file>
+                    <file> 1 19 16 12 2 14 8 6 25 21 4 17 15 9</file>
                 </tool>
             </inputs>
         </file>
@@ -79,26 +68,22 @@
             <name>$PROJ_DIR$\..\Drives\uart.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 24</file>
-                </tool>
-                <tool>
                     <name>ICC430</name>
-                    <file> 18</file>
+                    <file> 20</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 6</file>
+                    <file> 13</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 16 23 25 5 7 19 22 4 21 10 28 1 9 8</file>
+                    <file> 16 25 14 12 2 21 19 6 15 9 17 1 4 8</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 21 25 19 7 23 5 9 28 10 16 22 8 4 1</file>
+                    <file> 15 14 21 2 25 12 4 17 9 16 19 8 6 1</file>
                 </tool>
             </inputs>
         </file>
@@ -107,13 +92,13 @@
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 15</file>
+                    <file> 22</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 26 17 12 18 13</file>
+                    <file> 23 18 10 20 3</file>
                 </tool>
             </inputs>
         </file>

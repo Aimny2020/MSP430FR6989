@@ -61,11 +61,14 @@
         <Counter1>0000000000000000000000000000000000000000000000000000000000000000</Counter1>
     </EEM_Cycle_Counter_1>
     <DebugChecksum>
-        <Checksum>1173457874</Checksum>
+        <Checksum>1107839724</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
     </CallStack>
+    <array_types>
+        <Fmt0>unsigned short[100]	5	0</Fmt0>
+    </array_types>
     <PowerLog>
         <Title_0>Energy</Title_0>
         <Symbol_0>0 4 0</Symbol_0>
