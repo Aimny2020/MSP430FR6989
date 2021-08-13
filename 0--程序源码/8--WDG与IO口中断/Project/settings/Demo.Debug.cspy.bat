@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\chenk\Desktop\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.general.xcl" --backend -f "C:\Users\chenk\Desktop\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.driver.xcl" 
+"E:\Program Files\IAR For MSP430\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\GitHub\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.general.xcl" --backend -f "D:\GitHub\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\chenk\Desktop\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\chenk\Desktop\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.driver.xcl" 
+"E:\Program Files\IAR For MSP430\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\GitHub\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\GitHub\MSP430FR6989\0--程序源码\8--WDG与IO口中断\Project\settings\Demo.Debug.driver.xcl" 
 
 @echo off 
 :end
